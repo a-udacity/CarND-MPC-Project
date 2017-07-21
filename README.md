@@ -113,3 +113,10 @@ that's just a guess.
 
 One last note here: regardless of the IDE used, every submitted project must
 still be compilable with cmake and make./
+
+## Modification for my mac
+* Updated the install-mac.sh and CMakeList.txt 
+    * Added openssl location as per my local installs
+* Had to switch to brew science (brew tap homebrew/science)
+    * Then brew install ipopt and cppad packages
+* build and run in cLion IDE
