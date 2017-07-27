@@ -235,25 +235,25 @@ To get an overview of the true relative speed of the different decomposition, ch
 \section TopicLinAlgTerminology Terminology
 
 <dl>
-  <dt><b>Selfadjoint</b></dt>
+  <DT><b>Selfadjoint</b></DT>
     <dd>For a real matrix, selfadjoint is a synonym for symmetric. For a complex matrix, selfadjoint is a synonym for \em hermitian.
         More generally, a matrix \f$ A \f$ is selfadjoint if and only if it is equal to its adjoint \f$ A^* \f$. The adjoint is also called the \em conjugate \em transpose. </dd>
-  <dt><b>Positive/negative definite</b></dt>
+  <DT><b>Positive/negative definite</b></DT>
     <dd>A selfadjoint matrix \f$ A \f$ is positive definite if \f$ v^* A v > 0 \f$ for any non zero vector \f$ v \f$.
         In the same vein, it is negative definite if \f$ v^* A v < 0 \f$ for any non zero vector \f$ v \f$ </dd>
-  <dt><b>Positive/negative semidefinite</b></dt>
+  <DT><b>Positive/negative semidefinite</b></DT>
     <dd>A selfadjoint matrix \f$ A \f$ is positive semi-definite if \f$ v^* A v \ge 0 \f$ for any non zero vector \f$ v \f$.
         In the same vein, it is negative semi-definite if \f$ v^* A v \le 0 \f$ for any non zero vector \f$ v \f$ </dd>
 
-  <dt><b>Blocking</b></dt>
+  <DT><b>Blocking</b></DT>
     <dd>Means the algorithm can work per block, whence guaranteeing a good scaling of the performance for large matrices.</dd>
-  <dt><b>Implicit Multi Threading (MT)</b></dt>
+  <DT><b>Implicit Multi Threading (MT)</b></DT>
     <dd>Means the algorithm can take advantage of multicore processors via OpenMP. "Implicit" means the algortihm itself is not parallelized, but that it relies on parallelized matrix-matrix product rountines.</dd>
-  <dt><b>Explicit Multi Threading (MT)</b></dt>
+  <DT><b>Explicit Multi Threading (MT)</b></DT>
     <dd>Means the algorithm is explicitly parallelized to take advantage of multicore processors via OpenMP.</dd>
-  <dt><b>Meta-unroller</b></dt>
+  <DT><b>Meta-unroller</b></DT>
     <dd>Means the algorithm is automatically and explicitly unrolled for very small fixed size matrices.</dd>
-  <dt><b></b></dt>
+  <DT><b></b></DT>
     <dd></dd>
 </dl>
 
